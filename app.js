@@ -9,11 +9,12 @@ function cercaFilm() {
                 const movie = data.results[0];
                 const movieCard = `
                     <div class="col-md-4">
-                        <div class="card mb-4 shadow-sm">
+                        <div class="card mb-4 shadow-sm bg-card">
                             <img class="card-img-top" src="https://image.tmdb.org/t/p/w500${movie.poster_path}" alt="${movie.title}">
                             <div class="card-body">
-                                <h5 class="card-title text-center">${movie.title.toUpperCase()}</h5>
-                                <p class="card-text text-center"><strong>Voto della critica</strong>: ${movie.vote_average.toFixed(0)}</p>
+                                <h5 class="card-title text-center"><strong>Titolo: </strong>${movie.title}</h5>
+                                <p class="card-text text-center"><strong>Voto del pubblico</strong>: ${movie.vote_average.toFixed(0)}</p>
+                                <p class="card-text text-center"><strong>Trama</strong>: ${movie.overview}</p>
                             </div>
                         </div>
                     </div>

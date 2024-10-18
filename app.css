@@ -5,10 +5,34 @@
 }
 
 body {
-    background-color: burlywood;
+    background-color: #FFF4EA;
     font-family: Arial, sans-serif;
 }
 
-img {   
-    height: 450px;
+h1 {
+    color: #C96868;
+}
+
+.btn-bg {
+    background-color: #7EACB5;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-bg:hover {
+    background-color: #174651;
+    color: white;
+}
+
+.bg-card {
+    background-color: #FADFA1;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+img {
+    height: 500px;
 }
